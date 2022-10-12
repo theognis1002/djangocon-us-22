@@ -49,7 +49,7 @@ class Command(BaseCommand):
 
     def seed_data(self):
         # populate city, state data
-        with open("data/cities.csv", newline="") as csvfile:
+        with open("env/cities.csv", newline="") as csvfile:
             rows = csv.reader(csvfile, delimiter=",")
             next(rows)
 
