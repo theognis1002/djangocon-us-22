@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "content",
     "users",
+    "music",
     "debug_toolbar",
     "django_extensions",
     "django_seed",
